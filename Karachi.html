@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <style>
         body {
-            background: linear-gradient(rgba(40, 38, 38, 0.5), rgba(40, 38, 38, 0.5)), url(background.jpg);            
+            background: linear-gradient(rgba(40, 38, 38, 0.5), rgba(40, 38, 38, 0.5)), url(background.png);      
+            background-repeat: no-repeat;
+  background-attachment: fixed;      
+  margin: 0;
+    padding: 0; 
         }
     </style>
 </head>
@@ -24,12 +28,13 @@
                 <img src="logo.png" alt="logo" class="logo">
                 <li><a href="Home.html" class="btn from-left">Home</a></li>
                 <li><a href="Location.html" class="btn from-left">Location</a></li>
-                <li><a href="Login.html" class="btn from-left">Login</a></li>
             </ul>
         </nav>
     </div>
+    <a href="Login.html" class="top-right-login">Login</a>
+
     <div id="content" class="content">
-        <h1>Local Food Guide</h1>
+        <h1 style="font-size: 46px; color: #ffffff; text-align: center; margin-top: 30px; margin-bottom: 30px;">Karachi Food Guide</h1>
         <div class="food-info">
             <div class="food-item">
                 <img src="Zahid-Nihari.jpg" alt="Food Image 1">
