@@ -44,41 +44,43 @@ header {
   background-color: transparent;
   position: fixed;
   top: 0;
-  left: 40px; /* Increase this value to shift the nav bar more to the right */
-  width: 250px; /* Adjust this as needed based on your new logo size */
+  left: 40px; 
+  width: 250px; 
   height: 100%;
   padding: 20px 10px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Keeps items centered */
+  align-items: center; 
   justify-content: flex-start;
   z-index: 999;
 }
 
 .logo {
-  width: 70%; /* Adjust this value to fit your logo size */
+  width: 70%; 
   height: auto;
   margin-bottom: 20px;
 }
 
 .nav_links {
-  width: 100%; /* Takes the full width of .nav_bar */
-  list-style-type: none; /* Removes bullet points from the list */
-  padding: 0; /* Removes default padding */
+  width: 100%; 
+  list-style-type: none; 
+  padding: 0; 
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers the links under the logo */
+  align-items: center; 
 }
 
 .nav_links li {
-  margin-bottom: 20px; /* Adjust as needed for spacing between links */
+  margin-bottom: 20px; 
 }
 
 .nav_links li a {
   text-decoration: none;
-  color: #edf0f1; /* Your existing link color */
-  font-size: 1.4rem; /* Your existing font size */
+  color: #edf0f1;
+  font-size: 1.4rem; 
 }
+
+
 
 /*nav buttons */
 .btn {    
