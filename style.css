@@ -150,7 +150,7 @@ header {
   text-decoration: none; /* Removes underline from the link */
   position: fixed; /* Positioning the button fixed to keep it sticky */
   top: 50px; /* Distance from the top */
-  right: 60px; /* Distance from the right */
+  right: 90px; /* Distance from the right */
   transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
