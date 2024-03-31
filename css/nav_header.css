@@ -1,0 +1,80 @@
+
+/*nav buttons */
+.btn {    
+    position: relative; 
+    padding: 1.4rem 4.2rem;
+    padding-right: 3.1rem;
+    font-size: 1.4rem;
+    color: var(--inv);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);  
+    cursor: pointer;
+    user-select: none;
+  }  
+  .btn:before, .btn:after {
+    content: '';
+    position: absolute; 
+    transition: inherit;
+    z-index: -1;
+  }
+  
+  .btn:hover {
+    color: var(--def);
+    transition-delay: .5s;
+  }
+  
+  .btn:hover:before {
+    transition-delay: 0s;
+  }
+  
+  .btn:hover:after {
+    background: var(--inv);
+    transition-delay: .35s;
+  }
+
+.from-left:before, 
+.from-left:after {
+  top: 0;
+  width: 0;
+  height: 100%;
+}
+
+.from-left:before {
+  right: 0;
+  border: 1px solid var(--inv);
+  border-left: 0;
+  border-right: 0;  
+}
+
+.from-left:after {
+  left: 0;
+}
+
+.from-left:hover:before,
+.from-left:hover:after {
+  width: 100%;
+}
+
+.top-right-login {
+  display: inline-block;
+  padding: 10px 20px; /* Adjustable padding for the button */
+  font-size: 16px; /* Adjustable font size */
+  font-weight: bold; /* Makes the text bold */
+  color: #edf0f1; /* Text color */
+  background: transparent; /* Transparent background */
+  border: 2px solid #edf0f1; /* Border color matching the text color */
+  border-radius: 5px; /* Rounded corners for the button */
+  text-align: center;
+  text-decoration: none; /* Removes underline from the link */
+  position: fixed; /* Positioning the button fixed to keep it sticky */
+  top: 50px; /* Distance from the top */
+  right: 90px; /* Distance from the right */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.top-right-login:hover, .top-right-login:focus {
+  background: #edf0f1; /* Background color on hover/focus */
+  color: #96B7C4; /* Text color on hover/focus */
+  text-decoration: none; /* Ensures the text is not underlined on hover/focus */
+}

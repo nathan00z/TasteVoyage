@@ -1,0 +1,58 @@
+
+/*login design*/
+.input-container-1,
+.input-container-2,
+.input-container-3 {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon-1,
+.icon-2,
+.icon-3 {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field-1,
+.input-field-2,
+.input-field-3 {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field-1:focus,
+.input-field-2:focus,
+.input-field-3:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn-register {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn-register:hover {
+  opacity: 1;
+}
+
+.login-title {
+    margin: auto;
+    margin-top: 80%;
+    margin-bottom: 5%;
+    font-family: Arial, sans-serif; /* Example font family */
+    font-size: 30px; /* Example font size */
+    color: #ffffff; /* Example text color */
+}
