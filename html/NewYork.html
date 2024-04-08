@@ -23,6 +23,11 @@
 </head>
 <body>
     <header>
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
+            <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
+        </form>
+        <div id="suggestions" class="suggestions"></div>
         <form class="search" action="">
             <input type="search" placeholder="Explore New York's culinary delights..." required>
             <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
@@ -74,5 +79,8 @@
                     <h1>Location</h1>
                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6045.021841810796!2d-73.9864611!3d40.7507861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a92938cde7%3A0xa89dbb19d96569cc!2sKeens%20Steakhouse!5e0!3m2!1sen!2sus!4v1712328969871!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
     </div>
+    <script src="css/search_city.js"></script>
+</body>
+
 </body>
 </html>

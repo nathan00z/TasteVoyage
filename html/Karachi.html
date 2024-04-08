@@ -24,10 +24,11 @@
 </head>
 <body>
     <header>
-        <form class="search" action="">
-            <input type="search" placeholder="Explore culinary delights..." required>
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
             <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
-        </form>   
+        </form>
+        <div id="suggestions" class="suggestions"></div>
     </header>
     <div class="nav_bar">
         <nav>
@@ -77,5 +78,7 @@
             </div>
         </div>
     </div>
+    <script src="css/search_city.js"></script>
+
 </body>
 </html>

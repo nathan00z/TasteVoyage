@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="css/cities.css">
+    <!-- <link rel="stylesheet" href="css/cities.css"> -->
     <link rel="stylesheet" href="css/header_info.css">
     <link rel="stylesheet" href="css/landing_page.css">
     <link rel="stylesheet" href="css/local_restaurants.css">
@@ -23,12 +23,13 @@
             </style>
     </head>
     <body>
-    <header>
-        <form class="search" action="">
-            <input type="search" placeholder="Explore culinary delights..." required>
-            <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
-                  </form>   
-    </header>
+        <header>
+            <form class="search" action="" onsubmit="return false;">
+                <input type="search" id="searchbar" placeholder="Explore culinary delights..." onkeyup="search_city()" required>
+                <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
+            </form>   
+        </header>
+        
     <div class="nav_bar">
         <nav>
         <ul class="nav_links">
@@ -52,28 +53,65 @@
 <h1 class="destination-heading"><span style="color: rgb(255, 255, 255)">Select your Destination!</span></h1>
     </div>
     <div class="cities">
-        <div class="image-btn">
-            <div>
+        <ul>
+            <li class="image-btn">
                 <a href="Karachi.html">
                     <div class="text-overlay">Karachi</div>
                     <img src="img/Karachi.png" alt="Karachi" width="500">
                 </a>
-            </div>
-        </div>
-        <div class="image-btn">
-            <div>
+            </li>
+            <li class="image-btn">
                 <a href="Cairo.html">
                     <div class="text-overlay">Cairo</div>
                     <img src="img/Cairo.png" alt="Cairo" width="500">
                 </a>
-            </div>
-        </div>
-        <div class="image-btn">
-            <div>
-                <a href="Houston.html">
-                    <div class="text-overlay">Houston</div>
-                    <img src="img/Houston.png" alt="Houston" width="500">
+            </li>
+            <li class="image-btn">
+                <a href="Hanoi.html"> 
+                    <div class="text-overlay">Hanoi</div>
+                    <img src="img/hanoi.png" alt="Ha" width="500">
                 </a>
+            </li>
+            <li class="image-btn">
+                <a href="Jeju-si.html">
+                    <div class="text-overlay">Jeju-si</div>
+                    <img src="img/jeju-si.png" alt="Jeju-si" width="500">
+                </a>
+            </li>
+            <li class="image-btn">
+                <a href="Bern.html">
+                    <div class="text-overlay">Bern</div>
+                    <img src="img/bern.png" alt="Bern" width="500">
+                </a>
+            </li>
+            <li class="image-btn">
+                <a href="Auckland.html">
+                    <div class="text-overlay">Auckland</div>
+                    <img src="img/auckland.png" alt="Auckland" width="500">
+                </a>
+            </li>
+            <li class="image-btn">
+                <a href="NewYork.html">
+                    <div class="text-overlay">New York</div>
+                    <img src="img/NewYork.png" alt="NewYork" width="500">
+                </a>
+            </li>
+            <li class="image-btn">
+                <a href="Paris.html">
+                    <div class="text-overlay">Paris</div>
+                    <img src="img/Paris.png" alt="Paris" width="500">
+                </a>
+            </li>
+            <li class="image-btn">
+                <a href="Tehran.html">
+                    <div class="text-overlay">Tehran</div>
+                    <img src="img/Tehran.png" alt="Tehran" width="500">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="css/search_city.js"></script>
+
             </div>
         </div>
         <div class="image-btn">

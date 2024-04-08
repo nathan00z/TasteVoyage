@@ -23,10 +23,11 @@
 </head>
 <body>
     <header>
-        <form class="search" action="">
-            <input type="search" placeholder="Explore Houston's culinary delights..." required>
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
             <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
-        </form>   
+        </form>
+        <div id="suggestions" class="suggestions"></div>
     </header>
     <div class="nav_bar">
         <nav>
@@ -75,5 +76,6 @@
                     <h1>Location</h1>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.6093765020087!2d31.25904357555391!3d30.04806257492187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458409fe312f077%3A0x38ed746841b3f83!2sKhan%20El%20Khalili%20Restaurant%20et%20Naguib%20Mahfouz%20Coffee%20Shop!5e0!3m2!1sen!2sus!4v1712046052933!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
     </div>
+    <script src="css/search_city.js"></script>
 </body>
 </html>

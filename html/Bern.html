@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bern Food Guide</title>
+    <link rel="stylesheet" href="css/cities.css">
+    <link rel="stylesheet" href="css/header_info.css">
+    <link rel="stylesheet" href="css/landing_page.css">
+    <link rel="stylesheet" href="css/local_restaurants.css">
+    <link rel="stylesheet" href="css/nav_header.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/search_bar.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <style>
+        body {
+            background: linear-gradient(rgba(40, 38, 38, 0.5), rgba(40, 38, 38, 0.5)), url(img/background.png);      
+            background-repeat: no-repeat;
+  background-attachment: fixed;      
+  margin: 0;
+    padding: 0; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
+            <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
+        </form>
+        <div id="suggestions" class="suggestions"></div>
+    </header>
+    <div class="nav_bar">
+        <nav>
+            <ul class="nav_links">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <li><a href="Home.html"  class="btn from-left">Home</a></li>
+                <li><a href="About.html"  class="btn from-left">About</a></li>
+                <li><a href="Location.html" class="btn from-left">Location</a></li>
+            </ul>
+        </nav>
+    </div>
+    <a href="Login.html" class="top-right-login">Login</a>
+
+    <div id="content" class="content">
+        <h1 style="font-size: 46px; color: #ffffff; text-align: center; margin-top: 30px; margin-bottom: 30px;">Bern  Food Guide</h1>
+        <div class="food-info">
+            <div class="food-item">
+                <img src="img/Kornhauskeller_6.jpg" alt="Food Image 1">
+                <h2>Kornhauskeller</h2>
+                <p>Stepping into Kornhauskeller in Bern transports guests to a world where Swiss culinary traditions are celebrated under the vaulted ceilings of a historic granary. This restaurant is renowned for its sophisticated take on classic Swiss dishes.</p>
+                <p>Signature dishes such as Rösti, a Swiss-style potato fritter, and Zürcher Geschnetzeltes, thinly sliced veal in a creamy mushroom sauce, showcase the depth of Switzerland's culinary heritage. Each dish is prepared with meticulous care, ensuring a memorable dining experience.</p>
+                <p>With its grand architecture and refined atmosphere, Kornhauskeller offers not just a meal, but a dive into the heart of Swiss culture and hospitality, making it a must-visit for anyone exploring Bern's gastronomic landscape.</p>
+                <div class="maps">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5238332.835126638!2d3.4425633!3d50.1278441!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39c143b1e5ab%3A0x5f611ecdb1dcabb8!2sKornhauskeller%20Restaurant%20%26%20Bar!5e0!3m2!1sen!2sus!4v1712607337042!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div>
+            <div class="food-item">
+                <img src="img/csm_schwellenmaetteli-restaurants_bern_restaurant_terrasse_lachstatar_1e1b4a4415.jpg" alt="Food Image 2">
+                <h2>Schwellenmätteli</h2>
+                <p>Nestled along the banks of the Aare River, Schwellenmätteli offers a unique dining experience where the beauty of Bern's natural landscape meets culinary excellence. This restaurant is celebrated for its seasonal menu that highlights fresh, local ingredients.</p>
+                <p>Guests can enjoy contemporary dishes that range from freshly caught fish to vibrant salads and inventive vegetarian options, all while overlooking the tranquil flow of the Aare. The outdoor terrace, open during the warmer months, is a perfect spot for a leisurely meal amidst nature.</p>
+                <p>Schwellenmätteli's commitment to quality and its idyllic setting make it a favored destination for both locals and tourists, inviting everyone to savor the tastes of Switzerland while basking in the beauty of its surroundings.</p>
+                <div class="maps">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2723.826667459447!2d7.449524!3d46.94544570000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39c5acde0a71%3A0xa3c9e64c2d8f2bdf!2sRestaurants%20Terrasse!5e0!3m2!1sen!2sus!4v1712607364395!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+            <div class="food-item">
+                <img src="img/348s.jpg" alt="Food Image 3">
+                <h2>Altes Tramdepot</h2>
+    <p>Altes Tramdepot brews a unique Bernese experience, seamlessly blending the worlds of craft beer and Swiss-German cuisine. Situated right next to the iconic Bear Park, this former tram depot now houses a lively restaurant and brewery.</p>
+    <p>Visitors can indulge in hearty Swiss-German classics such as Schnitzel and Bratwurst, perfectly paired with a pint of freshly brewed beer. The in-house brewery ensures there's always a variety of unique beers on tap, offering flavors that can't be found anywhere else.</p>
+    <p>The vibrant atmosphere, combined with the view of the Aare River and the historic city, positions Altes Tramdepot as a staple in Bern's dining scene, inviting diners to enjoy the conviviality that defines Swiss tavern culture.</p>
+                <div class="maps">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2723.7220860538273!2d7.4596610000000005!3d46.947500999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39e5af46d69d%3A0x2ae6ac42935cd3fb!2sAltes%20Tramdepot%20Brauerei%20Restaurant!5e0!3m2!1sen!2sus!4v1712607394433!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+    </div>
+    <script src="css/search_city.js"></script>
+
+</body>
+</html>
