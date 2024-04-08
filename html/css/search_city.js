@@ -15,7 +15,7 @@ function search_city() {
 const cityMappings = {
     "karachi": "Karachi.html",
     "cairo": "Cairo.html",
-    "hanoi": "Hanoi.html", 
+    "hanoi": "Hanoi.html",  
     "jeju-si": "Jeju-si.html",
     "bern": "Bern.html", 
     "new york": "NewYork.html",
