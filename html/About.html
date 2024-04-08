@@ -7,26 +7,29 @@
     <link rel="stylesheet" href="css\cities.css">
     <link rel="stylesheet" href="css\header_info.css">
     <link rel="stylesheet" href="css\landing_page.css">
-    <link rel="stylesheet" href="css\local_restaurants.css">
+    <link rel="stylesheet" href="css\team.css">
     <link rel="stylesheet" href="css\nav_header.css">
     <link rel="stylesheet" href="css\register.css">
     <link rel="stylesheet" href="css\search_bar.css">
-    <link rel="stylesheet" href="css\style.css">         <style>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\footer.css">
+    <style>
             body {
                 background: linear-gradient(rgba(54, 53, 53, 0.5), rgba(54, 53, 53, 0.5)), url(img/background.png);    
                 background-repeat: no-repeat;
-  background-attachment: fixed;        
-  margin: 0;
-    padding: 0; 
+                background-attachment: fixed;       
+                margin: 0;
+                padding: 0; 
             }
             </style>
     </head>
     <body>
-    <header>
-        <form class="search" action="">
-            <input type="search" placeholder="Explore culinary delights..." required>
+    <header>  
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
             <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
-                  </form>   
+        </form>
+        <div id="suggestions" class="suggestions"></div>
     </header>
     <div class="nav_bar">
         <nav>
@@ -39,13 +42,47 @@
       </nav>
     </div>
     <a href="Login.html" class="top-right-login">Login</a>
-
-    <div id="content" class="about-content">
-            <h1 style="font-size: 46px; color: #ffffff; text-align: center; margin-top: 30px; margin-bottom: 30px;">About Us</h1>
-            <div class="food-info">
-                <div class="food-item">
-                    <p>Javed Nihari is a must-visit in Karachi! Their slow-cooked Nihari is bursting with flavor, and the tender meat melts in your mouth. A true gem for Nihari lovers!.</p>
-                </div>
+    
+    <div class="team-container">
+        <div class="team-card">
+            <section class="about-us-container">
+            <h3>About Us</h3>
+        </section>
+            <section class="team-member">
+                <h3>Nathan Nguyen</h3>
+                <p>Co-Founder & Lead Developer</p>
+                <p>Nathan brings TasteVoyage to life with innovative technology solutions, merging his passion for food and coding.</p>
+            </section>
+    
+            <section class="team-member">
+                <h3>Cassandra Mabrey</h3>
+                <p>Co-Founder & Culinary Content Curator</p>
+                <p>Cassandra is the creative mind behind the selection of restaurants and dishes featured on TasteVoyage.</p>
+            </section>
+    
+            <section class="team-member">
+                <h3>Tooba Naeem</h3>
+                <p>Marketing Strategist & Community Manager</p>
+                <p>Tooba connects TasteVoyage with food lovers worldwide, fostering a vibrant community of enthusiasts.</p>
+            </section>
+        </div>
     </div>
+    
+        <script src="css/search_city.js"></script>
+
     </body>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="About.html">About Us</a>
+                    <a href="Contact.html">Contact</a>
+                    <a href="Privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TasteVoyage. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </html>
