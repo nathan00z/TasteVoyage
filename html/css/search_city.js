@@ -1,3 +1,15 @@
+const cityMappings = {
+    "karachi": "Karachi.html",
+    "cairo": "Cairo.html",
+    "hanoi": "Hanoi.html",  
+    "jeju-si": "Jeju-si.html",
+    "auckland": "Auckland.html",
+    "bern": "Bern.html", 
+    "new york": "NewYork.html",
+    "paris": "Paris.html",
+    "tehran": "Tehran.html"
+};
+
 function search_city() {
     let input = document.getElementById('searchbar').value.toLowerCase();
     let x = document.getElementsByClassName('image-btn');
@@ -11,17 +23,6 @@ function search_city() {
         }
     }
 }
-
-const cityMappings = {
-    "karachi": "Karachi.html",
-    "cairo": "Cairo.html",
-    "hanoi": "Hanoi.html",  
-    "jeju-si": "Jeju-si.html",
-    "bern": "Bern.html", 
-    "new york": "NewYork.html",
-    "paris": "Paris.html",
-    "tehran": "Tehran.html"
-};
 
 function showSuggestions(input) {
     let suggestions = document.getElementById('suggestions');
@@ -51,12 +52,11 @@ function redirectToCityPage(input) {
     if (matchedCity) {
         window.location.href = cityMappings[matchedCity];
     } else {
-        // Optional: Notify the user if no matching city is found
+        // Notify the user if no matching city is found
         alert('No matching city found. Please check your spelling and try again.');
     }
 }
 
-// Bind to the search bar input event for showing suggestions
 document.getElementById('searchbar').oninput = function() {
     showSuggestions(this.value.trim());
 };

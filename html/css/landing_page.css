@@ -39,6 +39,7 @@
     transition: all 0.5s;
     cursor: pointer;
     margin-top: -13px;
+    margin-bottom: 30%;
     position: relative; 
     left: 50%; 
     transform: translateX(-50%);

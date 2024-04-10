@@ -1,17 +1,3 @@
-/* Reset some basics */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif; /* Example font */
-    background: linear-gradient(rgba(54, 53, 53, 0.5), rgba(54, 53, 53, 0.5)), url('img/background.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 /* Search Bar Design */
 .search {
     width: 500px;
