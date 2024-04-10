@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeju-si Food Guide</title>
+    <link rel="stylesheet" href="css/cities.css">
+    <link rel="stylesheet" href="css/header_info.css">
+    <link rel="stylesheet" href="css/landing_page.css">
+    <link rel="stylesheet" href="css/local_restaurants.css">
+    <link rel="stylesheet" href="css/nav_header.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/search_bar.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css\scrollbar.css">
+
+    <style>
+        body {
+            background: linear-gradient(rgba(40, 38, 38, 0.5), rgba(40, 38, 38, 0.5)), url(img/background.png);      
+            background-repeat: no-repeat;
+  background-attachment: fixed;       
+  margin: 0;
+    padding: 0; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
+            <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
+        </form>
+        <div id="suggestions" class="suggestions"></div>
+    </header>
+    <div class="nav_bar">
+        <nav>
+            <ul class="nav_links">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <li><a href="Home.html"  class="btn from-left">Home</a></li>
+                <li><a href="About.html"  class="btn from-left">About</a></li>
+                <li><a href="Location.html" class="btn from-left">Location</a></li>
+            </ul>
+        </nav>
+    </div>
+    <a href="Login.html" class="top-right-login">Login</a>
+
+    <div id="content" class="content">
+        <h1 style="font-size: 46px; color: #ffffff; text-align: center; margin-top: 30px; margin-bottom: 30px;">Jeju-si Food Guide</h1>
+        <div class="food-info">
+            <div class="food-item">
+                <img src="img/galchi-silver-beltfish-jeju-island-food.png" alt="Food Image 1">
+                <h2>Haenyeo's House (해녀의집) - Jeonbokjuk (Abalone Porridge)</h2>
+                <p>Haenyeo's House stands as a culinary tribute to the legendary female divers of Jeju Island, known as Haenyeo. These remarkable women, diving deep into the ocean's embrace without any breathing aids, harvest the sea's bounty by hand. It's this spirit of courage and tradition that Haenyeo's House seeks to honor through its dishes, particularly the celebrated Jeonbokjuk.</p>
+                <p>Jeonbokjuk, the restaurant's signature offering, is a rich abalone porridge that encapsulates the fresh, briny flavors of the ocean. Prepared with abalones gathered by the Haenyeo, this dish is not just a meal but a bowlful of Jeju's marine heritage. Creamy, nutritious, and infused with the delicate taste of abalone, Jeonbokjuk offers warmth and wellness with every spoonful.</p>
+                <p>Dining at Haenyeo's House provides more than just a meal; it offers an experience steeped in the cultural and culinary traditions of Jeju Island. The Jeonbokjuk is a testament to the hard work of the Haenyeo and the rich marine life that surrounds the island, making it a must-try for anyone seeking to immerse themselves in the authentic flavors of Jeju.</p>
+                <div class="maps">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.216171047019!2d126.91745858165764!3d33.46972227964962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d14864edfb155%3A0xc7341c71dfd2f6d5!2sOjo%20Haenyeo&#39;s%20House!5e0!3m2!1sen!2sus!4v1712604360234!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div>
+            <div class="food-item">
+                <img src="img/donsadon.jpg" alt="Food Image 2">
+                <h2>Donsadon (돈사돈) - Black Pork BBQ</h2>
+                <p>Donsadon is renowned across Jeju Island for its Black Pork BBQ, a delicacy that showcases the distinctive taste of the region's native black pigs. These pigs are celebrated for their juicy, flavorful meat, a result of their unique diet and free-roaming lifestyle on the island's lush landscapes. At Donsadon, the art of grilling black pork to perfection is a tradition, offering diners a taste of this local specialty in its purest form.</p>
+                <p>At the heart of Donsadon's allure is the meticulous process of grilling the black pork. The restaurant prides itself on its ability to cook the meat so that it retains its tenderness and rich flavor, creating an unforgettable culinary experience. Served alongside a variety of traditional Korean side dishes and dips, each meal is a harmonious blend of flavors and textures that epitomize Jeju's culinary heritage.</p>
+                <p>A visit to Donsadon for its Black Pork BBQ is more than just a meal—it's a journey into the heart of Jeju's culinary landscape. The experience of savoring this local delicacy, complemented by simple yet exquisite Korean desserts, leaves a lasting impression, making it an essential stop for anyone exploring the flavors of Jeju Island.</p>
+                <div class="maps">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6655.7295908986525!2d126.45893385869135!3d33.4788707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350cfa447d5d74c9%3A0xc0bc4713a5843318!2sDonsadon%20(Main%20Branch)!5e0!3m2!1sen!2sus!4v1712604209757!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+            <div class="food-item">
+                <img src="img/dessert.jpg" alt="Food Image 3">
+                <h2>Jeju Hallabong Tearoom - Hallabong Desserts</h2>
+                <p>The Jeju Hallabong Tearoom is a haven for those seeking to indulge in the sweet, citrusy delights of Jeju Island's famed hallabong. This specialty tearoom crafts an array of desserts and beverages that highlight the unique flavor profile of the hallabong, a seedless mandarin orange cherished for its perfect blend of sweetness and tartness.</p>
+                <p>Among the tearoom's offerings, the hallabong tiramisu stands out as a testament to culinary innovation. This dessert reimagines the classic Italian tiramisu with a Jeju twist, incorporating hallabong-infused cream layered with mascarpone cheese and ladyfingers. Each dessert, from the refreshing hallabong tea to the creamy ice cream and light, fluffy cakes, is crafted to showcase the vibrant taste of this beloved citrus fruit.</p>
+                <p>The Jeju Hallabong Tearoom offers a unique opportunity to experience the essence of Jeju's prized hallabong in various forms. Whether it's through a slice of cake, a scoop of ice cream, or a cup of tea, each creation invites guests to savor the sweet bounty of Jeju Island. It's a culinary journey that celebrates the natural flavors of the island, making it a must-visit for anyone looking to explore Jeju's rich culinary diversity.</p>
+                <div class="maps">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d852789.9413132727!2d125.91799667970982!3d33.39166660367098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350d14be449874b3%3A0x200cce9b986eed22!2sLuxury%20ice%20cream%20Hallabong!5e0!3m2!1sen!2sus!4v1712604026067!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+    </div>
+    <script src="css/search_city.js"></script>
+</body>
+</html>

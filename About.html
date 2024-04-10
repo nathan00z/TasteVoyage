@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css\cities.css">
+    <link rel="stylesheet" href="css\header_info.css"> 
+    <link rel="stylesheet" href="css\landing_page.css">
+    <link rel="stylesheet" href="css\team.css">
+    <link rel="stylesheet" href="css\nav_header.css">
+    <link rel="stylesheet" href="css\register.css">
+    <link rel="stylesheet" href="css\search_bar.css">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\footer.css">
+    <link rel="stylesheet" href="css\scrollbar.css">
+    <style>
+            body {
+                background: linear-gradient(rgba(54, 53, 53, 0.5), rgba(54, 53, 53, 0.5)), url(img/background.png);    
+                background-repeat: no-repeat;
+                background-attachment: fixed;       
+                margin: 0;
+                padding: 0; 
+            }
+            </style>
+    </head>
+    <body>
+    <header>  
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
+            <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
+        </form>
+        <div id="suggestions" class="suggestions"></div>
+    </header>
+    <div class="nav_bar">
+        <nav>
+        <ul class="nav_links">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <li><a href="Home.html"  class="btn from-left">Home</a></li>
+            <li><a href="About.html" class="btn from-left" style="text-decoration: underline; color: #edf0f1; font-size: 1.4rem;">About</a></li>
+            <li><a href="Location.html"  class="btn from-left">Location</a></li>
+        </ul>
+      </nav>
+    </div>
+    <a href="Login.html" class="top-right-login">Login</a>
+    
+    <div class="team-container">
+        <div class="team-card">
+            <section class="about-us-container">
+            <h3>About Us</h3>
+        </section>
+            <section class="team-member">
+                <h3>Nathan Nguyen</h3>
+                <p>Co-Founder & Lead Developer</p>
+                <p>Nathan brings TasteVoyage to life with innovative technology solutions, merging his passion for food and coding.</p>
+            </section>
+    
+            <section class="team-member">
+                <h3>Cassandra Mabrey</h3>
+                <p>Co-Founder & Culinary Content Curator</p>
+                <p>Cassandra is the creative mind behind the selection of restaurants and dishes featured on TasteVoyage.</p>
+            </section>
+    
+            <section class="team-member">
+                <h3>Tooba Naeem</h3>
+                <p>Marketing Strategist & Community Manager</p>
+                <p>Tooba connects TasteVoyage with food lovers worldwide, fostering a vibrant community of enthusiasts.</p>
+            </section>
+        </div>
+    </div>
+    
+        <script src="css/search_city.js"></script>
+
+    </body>
+    <footer class="footer">
+        <div class="logo-and-bottom-container">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="TasteVoyage Logo">
+            </div>
+            <p class="footer-bottom">© 2024 TasteVoyage. All rights reserved.</p>
+        </div>
+            </div>
+            <div class="footer-section newsletter">
+                <h4>Join our Journey</h4>
+                <p>Sign up for exclusive culinary tales and adventures.</p>
+                <form action="path/to/subscription" method="post">
+                    <input type="email" name="email" placeholder="Your Email Address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+</html>

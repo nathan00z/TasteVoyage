@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auckland Food Guide</title>
+    <link rel="stylesheet" href="css/cities.css">
+    <link rel="stylesheet" href="css/header_info.css">
+    <link rel="stylesheet" href="css/landing_page.css">
+    <link rel="stylesheet" href="css/local_restaurants.css">
+    <link rel="stylesheet" href="css/nav_header.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/search_bar.css">
+    <link rel="stylesheet" href="css/style.css">    \
+    <link rel="stylesheet" href="css\scrollbar.css">
+
+    <style>
+        body {
+            background: linear-gradient(rgba(40, 38, 38, 0.5), rgba(40, 38, 38, 0.5)), url(img/background.png);      
+            background-repeat: no-repeat;
+  background-attachment: fixed;      
+  margin: 0;
+    padding: 0; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
+            <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
+        </form>
+        <div id="suggestions" class="suggestions"></div>
+    </header>
+    <div class="nav_bar">
+        <nav>
+            <ul class="nav_links">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <li><a href="Home.html"  class="btn from-left">Home</a></li>
+                <li><a href="About.html"  class="btn from-left">About</a></li>
+                <li><a href="Location.html" class="btn from-left">Location</a></li>
+            </ul>
+        </nav>
+    </div>
+    <a href="Login.html" class="top-right-login">Login</a>
+
+    <div id="content" class="content">
+        <h1 style="font-size: 46px; color: #ffffff; text-align: center; margin-top: 30px; margin-bottom: 30px;">Auckland Food Guide</h1>
+        <div class="food-info">
+            <div class="food-item">
+                <img src="img/The-French-Cafe-credit-Josh-Griggs2.jpg" alt="Food Image 1">
+                <h2>The French Café</h2>
+                <p>The French Café stands as a beacon of culinary excellence in Auckland, offering an impeccable blend of contemporary French cuisine in a serene, sophisticated setting. Known for its artistic plating and innovative flavors, the restaurant invites diners on a gastronomic journey unlike any other.</p>
+                <p>Signature dishes such as the Duck Confit and the Truffle Risotto embody the meticulous attention to detail and respect for ingredients that the kitchen upholds. Each course is paired with a selection from their extensive wine list, curated to complement the French-inspired flavors.</p>
+                <p>The ambiance of The French Café, with its elegant decor and attentive service, ensures an unforgettable dining experience, making it a must-visit destination for those seeking the finesse of French cuisine with a modern twist.</p>
+                <div class="maps">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.3763362248333!2d-95.37832462445796!3d29.737819775079455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf6d86d21755%3A0xf3fac55241b15a55!2sThe%20French%20Corner!5e0!3m2!1sen!2sus!4v1712607778643!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+            </div>
+            <div class="food-item">
+                <img src="img/depot-iconic-kiwi-food.jpg" alt="Food Image 2"> 
+                <h2>Depot Eatery & Oyster Bar</h2>
+                <p>Depot Eatery & Oyster Bar, nestled in the heart of Auckland, is celebrated for its laid-back vibe and exceptional seafood, particularly its freshly shucked oysters. This bustling eatery, with its open kitchen and communal dining, encapsulates the essence of New Zealand's vibrant food scene.</p>
+                <p>From the succulent oysters served with a variety of accompaniments to the smoked kahawai sliders and lamb ribs, every dish is crafted to showcase the richness of local produce. Depot's menu encourages sharing, making it the perfect spot for a casual meal with friends or family.</p>
+                <p>Depot's commitment to freshness and its dynamic atmosphere have cemented its status as a cornerstone of Auckland's culinary landscape, inviting diners to enjoy the best of New Zealand's bounty in a relaxed, welcoming setting.</p>
+                <div class="maps">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.725888352154!2d174.7597980758406!3d-36.849040372233155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47f00ee2b793%3A0xe10df193fc29a0f6!2sDepot!5e0!3m2!1sen!2sus!4v1712607808096!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+            <div class="food-item">
+                <img src="img/Hotel-2023-07-27T150933.352.jpg" alt="Food Image 3">
+                <h2>Sidart</h2>
+                <p>Sidart introduces an avant-garde approach to Indian cuisine, offering a dining experience that melds traditional flavors with modern culinary techniques. Located in Auckland's Ponsonby neighborhood, this restaurant is a testament to innovation and creativity in the kitchen.</p>
+                <p>With a menu that changes regularly, diners can expect dishes that surprise and delight, such as the venison with beetroot and masala chai reduction, or the smoked yogurt with tamarind and puffed rice. Each dish is a work of art, visually stunning and complex in flavor.</p>
+                <p>The intimate setting of Sidart, combined with its cutting-edge cuisine, makes it a destination for those seeking to explore the boundaries of Indian fusion. It's a culinary adventure that offers a new perspective on traditional Indian dishes, reimagined through a contemporary lens.</p>
+                <div class="maps">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.759023909464!2d174.73948328326298!3d-36.84824690786679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d478fcdf9313f%3A0xb31e009cd38a143!2sSidart%20Restaurant!5e0!3m2!1sen!2sus!4v1712607833492!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+    </div>
+    <script src="css/search_city.js"></script>
+
+</body>
+</html>

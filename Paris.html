@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris Food Guide</title>
+    <link rel="stylesheet" href="css/cities.css">
+    <link rel="stylesheet" href="css/header_info.css">
+    <link rel="stylesheet" href="css/landing_page.css">
+    <link rel="stylesheet" href="css/local_restaurants.css">
+    <link rel="stylesheet" href="css/nav_header.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/search_bar.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css\scrollbar.css">
+    <style>
+        body {
+            background: linear-gradient(rgba(40, 38, 38, 0.5), rgba(40, 38, 38, 0.5)), url(img/background.png);         
+            background-repeat: no-repeat;
+  background-attachment: fixed;   
+  margin: 0;
+    padding: 0; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
+            <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
+        </form>
+        <div id="suggestions" class="suggestions"></div>
+    </header>
+    <div class="nav_bar">
+        <nav>
+            <ul class="nav_links">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <li><a href="Home.html" class="btn from-left">Home</a></li>
+                <li><a href="About.html"  class="btn from-left">About</a></li>
+                <li><a href="Location.html" class="btn from-left">Location</a></li>
+            </ul>
+            <a href="Login.html" class="top-right-login">Login</a>
+
+        </nav>
+    </div>
+    <div id="content" class="content">
+        <h1 style="font-size: 46px; color: #ffffff; text-align: center; margin-top: 30px; margin-bottom: 30px;">Paris Food Guide</h1>
+        <div class="food-info">
+            <div class="food-item">
+                <img src="img/La Fontaine de Mars.jpg" alt="Paris 1">
+                <h2>La Fontaine de Mars</h2>
+                <p>One of the oldest bistros in Paris, La Fontaine de Mars reflects the owner's southwestern roots with a menu crammed with foie gras, duck magret, and cassoulets. Last time we checked, there were seven different armagnacs listed on their regional boissons (drinks) menu.</p>
+								<p>A few steps from the Eiffel Tower, on a small square refreshed by the Fontaine de Mars, this bistro-brasserie is not the latest fashionable place... It is an institution! The most authentic Parisian restaurant! It has preserved its moldings and red leather benches, while offering a modern cuisine.</p>
+                <p>This is truly old-style Paris with classics like steamed leeks, sizzling escargots, as well as challenging dishes like warm calf's head, and fried black pudding sausage with apple. Leave room for dessert, the baba au rhum is stellar. One of the 100 Best Bistros in Paris.</p>
+                <div class="maps">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9901525054956!2d2.29997697646444!3d48.85839817133213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdfa04fd0fd%3A0xb3ce715dc59860b7!2sLa%20Fontaine%20de%20Mars!5e0!3m2!1sen!2sus!4v1712330585340!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+                </div>
+            </div>
+            <div class="food-item">
+                <img src="img/Mesa.jpg" alt="Paris 2">
+                <h2>Mesa</h2>
+                <p>Tucked away in the trendy Hoy Hotel, Mesa serves a vegan menu developed by Lauren Lovatt and Carolina Rodriguez, plant-based chefs and founders of the Plant Academy in London. Inspired by the kitchens of Latin America, Mesa is open from breakfast to dinner, serving dishes made mostly with organic seasonal produce from small farmers in the Île-de-France, the region surrounding Paris. </p>
+                <p> The menu evolves regularly but could include tacos stuffed with avocado, salad, and smoked mushrooms; crispy cauliflower fried with buckwheat; and tortelloni with vegan ricotta and pickled lemons. Desserts are excellent, including vegan dulce de leche and others that include CBD.</p>
+                <div class="maps">
+                    <h1>Location</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.795196854374!2d2.3376510766714818!3d48.88118067133525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f959d174b8b%3A0x50ae624ca4a86e28!2smesa%20de%20HOY%20-%20Restaurant%20Plantiful!5e0!3m2!1sen!2sus!4v1712330787151!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="food-item">
+                <img src="img/Jah Jah by le Tricycle.jpeg" alt="Paris 3">
+                <h2>Jah Jah by le Tricycle</h2>
+                <p>Named for the Rastafari God Jah, this brightly painted Afro vegan restaurant founded by Coralie Jouhier and Daquisiline Gomis offers a large variety of different vegetal milks, including coconut, hemp, soya, almond, and oat, along with a variety of African specialties like mafe, the savory West African peanut stew. Caribbean vegan dishes are also served, including soy fritters with spicy tomato sauce and spinach callaloo with okra.</p>
+                <p>Rediscover the joys of the sweet potato, the chickpea, the avocado, the cauliflower, the carrot or the courgette, combined in vibrant salads, colourful mezze and even a vegan hotdog, washed down with roselle and hibiscus juice. From the Creole world to India, this place serves the best of global vegan cuisine!</p>
+                <div class="maps">
+                    <h1>Location</h1>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5248.4331566572155!2d2.3530342999999867!3d48.8731477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e13a2f93cfb%3A0x7dde43ef0a0f42c0!2sJah%20Jah%20By%20Le%20Tricycle!5e0!3m2!1sen!2sus!4v1712330917069!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+    </div>
+    <script src="css/search_city.js"></script>
+
+
+
+</body>
+</html>
