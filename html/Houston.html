@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houston Food Guide</title>
+    <link rel="stylesheet" href="css/cities.css">
+    <link rel="stylesheet" href="css/header_info.css">
+    <link rel="stylesheet" href="css/landing_page.css">
+    <link rel="stylesheet" href="css/local_restaurants.css">
+    <link rel="stylesheet" href="css/nav_header.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/search_bar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background: linear-gradient(rgba(40, 38, 38, 0.5), rgba(40, 38, 38, 0.5)), url(img/background.png);         
+            background-repeat: no-repeat;
+            background-attachment: fixed;   
+            margin: 0;
+            padding: 0; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
+            <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
+        </form>
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" placeholder="Explore Houston's culinary delights..." required>
+            <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
+        </form>
+    </header>
+    <div class="nav_bar">
+        <nav>
+            <ul class="nav_links">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <li><a href="Home.html" class="btn from-left">Home</a></li>
+                <li><a href="About.html" class="btn from-left">About</a></li>
+                <li><a href="Location.html" class="btn from-left">Location</a></li>
+            </ul>
+            <a href="Login.html" class="top-right-login">Login</a>
+        </nav>
+    </div>
+    <div id="content" class="content">
+        <h1 style="font-size: 46px; color: #ffffff; text-align: center; margin-top: 30px; margin-bottom: 30px;">Houston Food Guide</h1>
+        <div class="food-item">
+            <img src="img/UchiHouston.jpg" alt="Uchi Houston">
+            <h2>Uchi Houston</h2>
+            <p>Uchi, "house" in Japanese, is founded by James Beard Award‑winning Chef Tyson Cole. A delicate balance of elevated food and impeccable service, Uchi offers non‑traditional Japanese cuisine with signature tastings, sushi, and seasonal omakase.</p>
+            <div class="maps">
+                <h1>Location</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.131802939316!2d-95.39329782380668!3d29.744898432699774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf66aaaaaaab%3A0xba870240e892b2c6!2sUchi%20Houston!5e0!3m2!1sen!2sus!4v1713201734562" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="food-item">
+            <img src="img/BrennansHouston.jpg" alt="Brennan's Houston">
+            <h2>Brennan's Houston</h2>
+            <p>Brennan's of Houston has a rich history rooted in the 1967 opening as a sister restaurant to the world-famous Commander's Palace in New Orleans. Incorporating the freshest local ingredients, they offer exceptional dining, including many original creations among their award-winning cuisine.</p>
+            <div class="maps">
+                <h1>Location</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.196542237968!2d-95.38395572380671!3d29.743024532787853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf6f2fb55b87%3A0xd083931187a7c04b!2sBrennan&#39;s%20Houston!5e0!3m2!1sen!2sus!4v1713201902998" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="food-item">
+            <img src="img/VicAndAnthonys.jpg" alt="Vic & Anthony's Steakhouse">
+            <h2>Vic & Anthony's Steakhouse</h2>
+            <p>National restaurateur Tilman Fertitta, along with his father Vic, traveled across the country, experiencing the best steakhouses. With an eye for detail, they created a spectacular dining environment at Vic & Anthony’s Steakhouse, known for its prime beef and fresh seafood.</p>
+            <div class="maps">
+                <h1>Location</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.714164619464!2d-95.36082922380633!3d29.756984532132087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf2417d131ef%3A0x7a02857b1af918a4!2sVic%20%26%20Anthony&#39;s%20Steakhouse!5e0!3m2!1sen!2sus!4v1713202164111" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="css/search_city.js"></script>
+</body>
+</html>

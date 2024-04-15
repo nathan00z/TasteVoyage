@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <!-- <link rel="stylesheet" href="css/cities.css"> -->
     <link rel="stylesheet" href="css/header_info.css">
     <link rel="stylesheet" href="css/landing_page.css">
     <link rel="stylesheet" href="css/local_restaurants.css">
@@ -13,46 +12,43 @@
     <link rel="stylesheet" href="css/search_bar.css">
     <link rel="stylesheet" href="css/style.css">         
     <style>
-            body {
-                background: linear-gradient(rgba(54, 53, 53, 0.5), rgba(54, 53, 53, 0.5)), url(img/background.png);    
-                background-repeat: no-repeat;
-  background-attachment: fixed;        
-  margin: 0;
-    padding: 0; 
-            }
-            </style>
-    </head>
-    <body>
-        <header>
-            <form class="search" action="" onsubmit="return false;">
-                <input type="search" id="searchbar" placeholder="Explore culinary delights..." onkeyup="search_city()" required>
-                <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
-            </form>   
-        </header>
-        
+        body {
+            background: linear-gradient(rgba(54, 53, 53, 0.5), rgba(54, 53, 53, 0.5)), url(img/background.png);    
+            background-repeat: no-repeat;
+            background-attachment: fixed;        
+            margin: 0;
+            padding: 0; 
+        }
+        .destination-heading {
+            font-size: 45px; 
+            text-align: center; 
+            margin-top: 30px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <form class="search" action="" onsubmit="return false;">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
+            <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
+        </form>   
+    </header>
+
     <div class="nav_bar">
         <nav>
-        <ul class="nav_links">
-            <img src="img/logo.png" alt="logo" class="logo">
-            <li><a href="Home.html"  class="btn from-left">Home</a></li>
-            <li><a href="About.html"  class="btn from-left">About</a></li>
-            <li><a href="Location.html" class="btn from-left" style="text-decoration: underline; color: #edf0f1; font-size: 1.4rem;">Location</a></li>
-        </ul>
-      </nav>
+            <ul class="nav_links">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <li><a href="Home.html" class="btn from-left">Home</a></li>
+                <li><a href="About.html" class="btn from-left">About</a></li>
+                <li><a href="Location.html" class="btn from-left">Location</a></li>
+            </ul>
+            <a href="Login.html" class="top-right-login">Login</a>
+        </nav>
     </div>
-    <a href="Login.html" class="top-right-login">Login</a>
 
     <div class="cities">
-        <style>
-                .destination-heading {
-    font-size: 45px; 
-    text-align: center; 
-    margin-top: 30px;
-}
-        </style>
-<h1 class="destination-heading"><span style="color: rgb(255, 255, 255)">Select your Destination!</span></h1>
-    </div>
-    <div class="cities">
+        <h1 class="destination-heading">Select your Destination!</h1>
         <ul>
             <li class="image-btn">
                 <a href="Karachi.html">
@@ -67,9 +63,9 @@
                 </a>
             </li>
             <li class="image-btn">
-                <a href="Hanoi.html"> 
+                <a href="Hanoi.html">
                     <div class="text-overlay">Hanoi</div>
-                    <img src="img/hanoi.png" alt="Ha" width="500">
+                    <img src="img/hanoi.png" alt="Hanoi" width="500">
                 </a>
             </li>
             <li class="image-btn">
@@ -93,7 +89,7 @@
             <li class="image-btn">
                 <a href="NewYork.html">
                     <div class="text-overlay">New York</div>
-                    <img src="img/NewYork.png" alt="NewYork" width="500">
+                    <img src="img/NewYork.png" alt="New York" width="500">
                 </a>
             </li>
             <li class="image-btn">
@@ -108,34 +104,28 @@
                     <img src="img/Tehran.png" alt="Tehran" width="500">
                 </a>
             </li>
+            
+            <li class="image-btn">
+                <a href="Houston.html">
+                    <div class="text-overlay">Houston</div>
+                    <img src="img/Houston.png" alt="Houston" width="500">
+                </a>
+            </li>
+            <li class="image-btn">
+                <a href="Denver.html">
+                    <div class="text-overlay">Denver</div>
+                    <img src="img/Denver.png" alt="Denver" width="500">
+                </a>
+            </li>
+            <li class="image-btn">
+                <a href="Barcelona.html">
+                    <div class="text-overlay">Barcelona</div>
+                    <img src="img/Barcelona.png" alt="Barcelona" width="500">
+                </a>
+            </li>
         </ul>
     </div>
-    <script src="css/search_city.js"></script>
 
-            </div>
-        </div>
-        <div class="image-btn">
-            <div>
-                <a href="NewYork.html">
-                    <div class="text-overlay">NewYork</div>
-                    <img src="img/Photographing-NYC-skyline.jpg" alt="NewYork" width="500">
-                </a>
-            </div>
-        </div>
-        <div class="image-btn">
-            <div>
-                <a href="Paris.html">
-                    <div class="text-overlay">Paris</div>
-                    <img src="img/Paris.jpg" alt="Paris" width="500">
-                </a>
-            </div>
-    </div>
-        <div class="image-btn">
-            <div>
-                <a href="Tehran.html">
-                    <div class="text-overlay">Tehran</div>
-                    <img src="img/Tehran_.jpg" alt="Tehran" width="500">
-                </a>
-            </div>
-    </body>
+    <script src="css/search_city.js"></script>
+</body>
 </html>
