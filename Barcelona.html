@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcelona Food Guide</title>
+    <link rel="stylesheet" href="css/cities.css">
+    <link rel="stylesheet" href="css/header_info.css">
+    <link rel="stylesheet" href="css/landing_page.css">
+    <link rel="stylesheet" href="css/local_restaurants.css">
+    <link rel="stylesheet" href="css/nav_header.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/search_bar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background: linear-gradient(rgba(40, 38, 38, 0.5), rgba(40, 38, 38, 0.5)), url(img/background.png);         
+            background-repeat: no-repeat;
+            background-attachment: fixed;   
+            margin: 0;
+            padding: 0; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
+            <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
+        </form>
+        <div id="suggestions" class="suggestions"></div>
+    </header>
+    <div class="nav_bar">
+        <nav>
+            <ul class="nav_links">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <li><a href="Home.html" class="btn from-left">Home</a></li>
+                <li><a href="About.html" class="btn from-left">About</a></li>
+                <li><a href="Location.html" class="btn from-left">Location</a></li>
+            </ul>
+            <a href="Login.html" class="top-right-login">Login</a>
+        </nav>
+    </div>
+    <div id="content" class="content">
+        <h1 style="font-size: 46px; color: #ffffff; text-align: center; margin-top: 30px; margin-bottom: 30px;">Barcelona Food Guide</h1>
+        <div class="food-item">
+            <img src="img/Disfrutar.jpg" alt="Disfrutar">
+            <h2>Disfrutar</h2>
+            <p>Located in the Eixample, just in front of the Ninot Market, Disfrutar reflects the culinary heritage of the Mediterranean with a stunning ceramic-filled design. The space is inspired by Barcelona's vibrant colors and the intimacy of small fishing villages.</p>
+            <div class="maps">
+                <h1>Location</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5986.740345263122!2d2.1506240765661673!3d41.38776669597093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a285bbc62c4d%3A0xcd8a70d67beb3993!2sDisfrutar!5e0!3m2!1sen!2sus!4v1713204349889" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="food-item">
+            <img src="img/ElNacionalBarcelona.jpg" alt="El Nacional Barcelona">
+            <h2>El Nacional Barcelona</h2>
+            <p>El Nacional is a unique gastronomic multi-space that offers an array of dining experiences under one roof, celebrating the local life of Barcelona with its diverse culinary offerings.</p>
+            <div class="maps">
+                <h1>Location</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.2403235113443!2d2.1658164765662606!3d41.39058699579592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f26e459133%3A0xaec7b1e0ea06b75!2sEl%20Nacional%20Barcelona!5e0!3m2!1sen!2sus!4v1713204447243" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="food-item">
+            <img src="img/Botafumeiro.jpg" alt="Botafumeiro">
+            <h2>Botafumeiro</h2>
+            <p>Botafumeiro is a seafood haven in Barcelona, known for its meticulous selection of fresh seafood sourced from the fish auctions of Catalonia and Galicia, bringing the essence of the sea to your table.</p>
+            <div class="maps">
+                <h1>Location</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.787192132053!2d2.1520636765666077!3d41.40042769518539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2981d39466b%3A0x508d4244436b6439!2sBotafumeiro!5e0!3m2!1sen!2sus!4v1713204560164" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="css/search_city.js"></script>
+</body>
+</html>

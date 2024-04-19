@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denver Food Guide</title>
+    <link rel="stylesheet" href="css/cities.css">
+    <link rel="stylesheet" href="css/header_info.css">
+    <link rel="stylesheet" href="css/landing_page.css">
+    <link rel="stylesheet" href="css/local_restaurants.css">
+    <link rel="stylesheet" href="css/nav_header.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/search_bar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background: linear-gradient(rgba(40, 38, 38, 0.5), rgba(40, 38, 38, 0.5)), url(img/background.png);         
+            background-repeat: no-repeat;
+            background-attachment: fixed;   
+            margin: 0;
+            padding: 0; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <form class="search" onsubmit="event.preventDefault();">
+            <input type="search" id="searchbar" placeholder="Explore culinary delights..." required>
+            <button type="submit"><img src="img/search.png" alt="Search Icon"></button>
+        </form>
+        <div id="suggestions" class="suggestions"></div>
+    </header>
+    <div class="nav_bar">
+        <nav>
+            <ul class="nav_links">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <li><a href="Home.html" class="btn from-left">Home</a></li>
+                <li><a href="About.html" class="btn from-left">About</a></li>
+                <li><a href="Location.html" class="btn from-left">Location</a></li>
+            </ul>
+            <a href="Login.html" class="top-right-login">Login</a>
+        </nav>
+    </div>
+    <div id="content" class="content">
+        <h1 style="font-size: 46px; color: #ffffff; text-align: center; margin-top: 30px; margin-bottom: 30px;">Denver Food Guide</h1>
+        <div class="food-item">
+            <img src="img/GuardAndGrace.jpg" alt="Guard and Grace">
+            <h2>Guard and Grace</h2>
+            <p>Named after the chef’s daughter, Guard and Grace is a take on the big, fancy, modern steakhouse – miles and miles of fiery grills and charcuterie, oyster bar and bar tops, private rooms, and a posh, walk-in, floor-to-high-ceiling glassed wine cellar – yet still, with more of a bright, airy playfulness than the usual dark, stiff, mano a mano atmosphere.</p>
+            <div class="maps">
+                <h1>Location</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6722128.320431748!2d-105.46640057112612!3d34.64739815347017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78d7690a870b%3A0xff8859bf67c1b281!2sGuard%20and%20Grace!5e0!3m2!1sen!2sus!4v1713203480166" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="food-item">
+            <img src="img/Panzano.jpg" alt="Panzano">
+            <h2>Panzano</h2>
+            <p>Offering the best in contemporary Northern Italian cuisine with a focus on local, seasonal and organic ingredients, Panzano delivers unparalleled service and an award-winning wine list in a spectacular urban setting in downtown Denver.</p>
+            <div class="maps">
+                <h1>Location</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.6373047904067!2d-104.99771281003952!3d39.74779732274827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78da0b2c979b%3A0xd7c4aea8c2601a0e!2sPanzano!5e0!3m2!1sen!2sus!4v1713203647171" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="food-item">
+            <img src="img/ElFive.jpg" alt="El Five">
+            <h2>El Five</h2>
+            <p>They are 100% wind-powered and have responsibly-sourced, vegetable-forward menus. All animal proteins are certified humane, pasture-raised and utilize non-GMO, vegetarian feed.</p>
+            <div class="maps">
+                <h1>Location</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.133287891414!2d-105.01407622349332!3d39.75911569540068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78948c6054e3%3A0xa34952669a253806!2sEl%20Five!5e0!3m2!1sen!2sus!4v1713203749294" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="css/search_city.js"></script>
+</body>
+</html>

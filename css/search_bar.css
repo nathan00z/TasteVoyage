@@ -8,7 +8,7 @@
     border-radius:  6px;
     border: 1px solid #fff;
     z-index: 2000;
-    position: sticky;
+    position: relative;
 }
 
 .search input {
