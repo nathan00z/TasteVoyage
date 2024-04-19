@@ -7,7 +7,10 @@ const cityMappings = {
     "bern": "Bern.html", 
     "new york": "NewYork.html",
     "paris": "Paris.html",
-    "tehran": "Tehran.html"
+    "tehran": "Tehran.html",
+    "houston": "Houston.html",
+    "barcelona": "Barcelona.html",
+    "denver": "Denver.html"
 };
 
 function search_city() {
