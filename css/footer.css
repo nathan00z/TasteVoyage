@@ -7,7 +7,6 @@
 
 /* Adjustments to existing styles for consistency */
 .footer {
-    position: aboslute;
     display: flex;
     align-items: start;
     justify-content: flex-start;

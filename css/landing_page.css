@@ -10,20 +10,29 @@
     text-align: center; /* Centers all text inside */
   } 
   
+
   .content-area h1 {
     font-size: 40px; /* Font size for the main title */
     color: #ffffff; /* Maintaining the white color for contrast */
     margin: 10px 0 20px; /* Adjusted margin to bring the h1 closer to the paragraph */
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
   }
-  
-  .content-area p {
+
+.content-area p {
     font-size: 18px; /* Font size for paragraph text */
     color: #ffffff; /* White text for readability */
     margin: 10px 0; /* Reduced top margin to bring the paragraph closer to the heading */
+<<<<<<< Updated upstream
     text-shadow: rgb(0, 0, 0) 20px 10px 10px;
   }
+=======
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+>>>>>>> Stashed changes
   
   
 /*home launch-button */
